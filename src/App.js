@@ -1,4 +1,4 @@
-gitimport { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import "./App.css";
 const apiKey = "7a4b489e3fe51986890eb742f83b0474";
 const kelvinToCelsius = (degree) => degree - 273.15;
